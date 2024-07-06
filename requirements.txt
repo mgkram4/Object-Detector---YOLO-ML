@@ -1,0 +1,31 @@
+# YOLO v7 Object Detection Requirements
+
+# Deep Learning Framework
+torch>=1.7.0
+torchvision>=0.8.1
+
+# Image Processing
+opencv-python>=4.1.1
+Pillow>=7.1.2
+
+# Numerical and Scientific Computing
+numpy>=1.18.5,<1.24.0
+scipy>=1.4.1
+
+# Plotting and Visualization
+matplotlib>=3.2.2
+
+# HTTP Requests
+requests>=2.23.0
+
+# Progress Bars
+tqdm>=4.41.0
+
+# YAML Parsing
+PyYAML>=5.3.1
+
+# Optional: Jupyter Notebook support
+ipython
+
+# Note: You may need to install additional system dependencies for OpenCV:
+# sudo apt-get install libgl1-mesa-glx
